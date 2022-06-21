@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 // POST/post
-router.post('/', (req, res) => {
+router.get('/', (req, res) => {
     res.send('hello node');
 
 });
@@ -18,5 +18,3 @@ router.delete('/', (req, res) => {
 })
 
 module.exports = router;
-
-//testtest
