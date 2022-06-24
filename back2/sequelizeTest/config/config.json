@@ -2,9 +2,13 @@
   "development": {
     "username": "root",
     "password": "1234",
-    "database": "react-nodebird",
+    "database": "board_db",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "port": "3306",
+    "dialect": "mysql",
+    "pool": {
+
+    }
   },
   "test": {
     "username": "root",
